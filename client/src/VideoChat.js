@@ -2,13 +2,7 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAsYUyX0BD2i9AcRO96TMiybxQS7i4F2hQ",
-  authDomain: "video-jam-5d302.firebaseapp.com",
-  projectId: "video-jam-5d302",
-  storageBucket: "video-jam-5d302.appspot.com",
-  messagingSenderId: "1010615800709",
-  appId: "1:1010615800709:web:a493f40f0b1ad4b99aeaec",
-  measurementId: "G-NQVV1EZ2CE"
+// YOUR FIREBASE CONFIG
 };
 
 if (!firebase.apps.length) {

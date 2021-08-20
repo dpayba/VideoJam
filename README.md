@@ -44,7 +44,40 @@ Now that your video call is running, you may scroll down and search for songs or
 <img src="images/search.png" width="500">
 
 Once you find a song, you may click on it, and it will begin playing for everyone in the call.
-Lyrics will also appear at the bottom of the screen to sing along to. Enjoy!
+Lyrics will also appear at the bottom of the screen to sing along to. 
 
 <img src="images/lyrics.png" width="500">
+
+SETUP
+------
+1. Clone this repository using the following command
+
+* ```git clone https://github.com/dpayba/VideoJam.git```
+
+2. Initialize a Firebase firestore database. You must first create an account and project. Then save your config.
+   
+<img src="images/config.png" width="300">
+
+3. Navigate to the ```VideoChat.js``` file and replace ```firebaseConfig``` with your configuration
+4. Go to the [Spotify Developers Page](https://developer.spotify.com/) and access your dashboard.
+5. Login and create an app. Save your **client id** and **client secret**.
+6. Replace the ```clientId``` and ```clientSecret``` variables in the ```Dashboard.js``` and ```server.js``` files accordingly.
+7. Install dependencies
+* ```cd server```
+* ```npm install```
+* ```cd ../client```
+* ```npm install```
+
+USAGE
+-----
+To run the application, you must run both the client and server simultaneously.
+####For Client:
+* ```cd client```
+* ```npm start```
+
+####For Server:
+* ```cd server```
+* ```npm run devStart```
+
+You should now be able to see the landing page and access **VideoJam's** features. Enjoy!
 

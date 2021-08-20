@@ -71,11 +71,12 @@ SETUP
 USAGE
 -----
 To run the application, you must run both the client and server simultaneously.
-####For Client:
+
+**For Client:**
 * ```cd client```
 * ```npm start```
 
-####For Server:
+**For Server:**
 * ```cd server```
 * ```npm run devStart```
 
